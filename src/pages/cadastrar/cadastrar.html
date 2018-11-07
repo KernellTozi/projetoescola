@@ -1,0 +1,59 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>cadastrar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <h3>Cadastrar</h3>
+
+    <ion-list>
+      <ion-item>
+        <ion-label floating>Nome do Usuário</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Confime o nome do usuario</ion-label>
+          <ion-input type="text"></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label floating>Senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label floating>Confirmar Senha</ion-label>
+          <ion-input type="password"></ion-input>
+      </ion-item>
+
+        
+        <ion-list radio-group>
+            <ion-list-header>
+              gênero
+            </ion-list-header>
+          
+            <ion-item>
+              <ion-label>Homem</ion-label>
+              <ion-radio checked="true" value="homem"></ion-radio>
+            </ion-item>
+          
+            <ion-item>
+              <ion-label>Mulher</ion-label>
+              <ion-radio value="mulher"></ion-radio>
+            </ion-item>
+
+          
+
+    </ion-list>
+    </ion-list>
+    <div padding>
+      <button ion-button  (click)="home()"> Cadastrar</button>
+    </div>
+
+</ion-content>
